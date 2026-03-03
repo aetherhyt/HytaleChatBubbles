@@ -10,7 +10,7 @@
 Group #ChatBubbleContainer {
     // This template is never directly displayed
     // It's used as a reference for the structure
-    Anchor: (Left: 0, Top: 0, Width: 626, Height: 349);
+    Anchor: (Left: 0, Top: 0, Width: 626, Height: 388);
     Background: @BubbleTexture;
     LayoutMode: Top;
 
