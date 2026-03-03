@@ -1,0 +1,18 @@
+{
+  "Group": "dev.aetherhyt.chatbubbles",
+  "Name": "ChatBubbles",
+  "Version": "1.0.0",
+  "Description": "Speech bubble UI plugin for Hytale NPCs",
+  "Authors": [
+    {
+      "Name": "AetherHyt Studios"
+    }
+  ],
+  "Website": "https://aetherhyt.dev",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "dev.aetherhyt.ChatBubbles",
+  "IncludesAssetPack": true
+}

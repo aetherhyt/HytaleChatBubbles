@@ -1,0 +1,23 @@
+# Chat Bubbles Configuration
+
+defaults:
+  # Display duration in milliseconds
+  duration: 5000
+  # Maximum width in pixels (based on bubble image)
+  maxWidth: 626
+  # Maximum height in pixels (based on bubble image)
+  maxHeight: 349
+  # Text color (hex)
+  textColor: "#FFFFFF"
+  # Background opacity (0.0 - 1.0)
+  backgroundOpacity: 0.9
+  # Field of view for 3D projection (degrees)
+  fov: 75.0
+  # Offset above entity head in blocks (can be negative)
+  headOffset: -0.75
+
+# Maximum visibility distance in blocks (bubble won't show if entity is farther)
+maxDistance: 25
+
+# Cleanup interval in seconds
+cleanupInterval: 30

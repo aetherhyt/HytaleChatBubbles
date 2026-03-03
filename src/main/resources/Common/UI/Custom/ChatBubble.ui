@@ -1,0 +1,32 @@
+// Chat Bubble UI Template
+// This is a template that gets cloned for each bubble instance
+// Each bubble gets unique IDs via setObject commands
+
+@BubbleTexture = PatchStyle(
+    TexturePath: "chat_bubble.png",
+    Border: 25
+);
+
+Group #ChatBubbleContainer {
+    // This template is never directly displayed
+    // It's used as a reference for the structure
+    Anchor: (Left: 0, Top: 0, Width: 626, Height: 349);
+    Background: @BubbleTexture;
+    LayoutMode: Top;
+
+    Group #TextArea {
+        Anchor: (Left: 25, Top: 25, Width: 576, Height: 274);
+        LayoutMode: Middle;
+
+        Label #MessageText {
+            Text: "";
+            Style: (
+                FontSize: 24,
+                TextColor: #ffffff,
+                HorizontalAlignment: Center,
+                VerticalAlignment: Center,
+                Wrap: true
+            );
+        }
+    }
+}
